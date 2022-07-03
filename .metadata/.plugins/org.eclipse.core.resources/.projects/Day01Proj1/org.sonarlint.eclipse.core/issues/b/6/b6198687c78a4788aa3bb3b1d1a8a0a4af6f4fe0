@@ -1,0 +1,20 @@
+
+j	java:S106"9Replace this use of System.out or System.err by a logger.(åâ¹8×á”•0H9RMAJORZ
+CODE_SMELL
+a
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH'RINFOZ
+CODE_SMELL
+h
+java:S1854"6Remove this useless assignment to local variable "x1".(¤Ä½ğ8Ìÿ–•0HARMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(’€Ä§ıÿÿÿÿ8Ã¥•0H*RMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(…Îëáşÿÿÿÿ8×á”•0H7RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ææŠ<8Ã¥•0H,RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(®íá8×á”•0H8RMAJORZ
+CODE_SMELL
+j	java:S106
+"9Replace this use of System.out or System.err by a logger.(·‡¾©8Ã¥•0H+RMAJORZ
+CODE_SMELL

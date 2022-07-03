@@ -1,0 +1,54 @@
+package mypackage;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
+import java.io.*;
+
+public class CreateNewFile {
+	
+	private static void CreateFileUsingFileClass() throws IOException {
+		File file = new File("D:\\Full stack\\beststudents.txt");
+		
+		//create the File
+		if(file.createNewFile()) {
+			System.out.println("File created");
+		}else {
+			System.out.println("File already exists");
+		}
+		//write content to the file
+		FileWriter writer = new FileWriter(file);
+		writer.write("June Batch FSD participants are active participants");
+		writer.close();
+	}
+	private static void CreateNewFileUsingFileOutputStreamClass() throws IOException {
+		String data = "Hey Folks.. complete assignment";
+		FileOutputStream out = new FileOutputStream("D:\\Full stack\\job.txt");
+		out.write(data.getBytes());
+		out.close();
+	}
+	private static void CreateFileIn_NIO() throws IOException {
+		String data = "Hy folks";
+		Files.write(Paths.get("D:\\Full stack\\26june.txt"), data.getBytes());
+		List<String> lines = Arrays.asList("1st line","2nd Line");
+		Files.write(Paths.get("job.txt"),lines,StandardCharsets.UTF_8,
+				StandardOpenOption.);
+	}
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		try {
+			CreateFileUsingFileClass();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

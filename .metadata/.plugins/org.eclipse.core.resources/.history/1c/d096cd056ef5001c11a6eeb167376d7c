@@ -1,0 +1,20 @@
+package mypackage;
+
+import java.util.Scanner;
+
+public class ThrowsDemo2 {
+	
+	private String name;
+	void accept () {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name: ");
+		name = sc.next();
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
