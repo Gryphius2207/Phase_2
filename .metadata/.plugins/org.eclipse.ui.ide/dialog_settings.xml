@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="ResourceNavigator">
@@ -22,6 +24,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\harip\OneDrive\Desktop\Projects\Phase2-MorningAugust-\HibernateCollectionMappingM"/>
+			<item value="C:\Users\harip\OneDrive\Desktop\Projects\Phase_3\AirLineTicketBooking"/>
+			<item value="C:\Users\harip\OneDrive\Desktop\Projects\Phase_3\Phase2Assessment-"/>
 			<item value="C:\Users\harip\OneDrive\Desktop\CRUD-Operations-In-Java-Source-Code\CRUD Operations In Java Source Code\SwingCrud"/>
 			<item value="C:\Users\harip\OneDrive\Desktop\CRUD-Operations-In-Java-Source-Code\CRUD Operations In Java Source Code\SwingCrud\src"/>
 		</list>
